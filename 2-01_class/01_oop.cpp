@@ -6,13 +6,13 @@ using namespace std;
 
 int main()
 {
-    // c++ 스타일
+    // c++ 스타일... 객체지향
     string s_0 = "hello";
     string s_1 = "world";
     s_0.append(s_1);
     cout << s_0 << endl;
 
-    // c 스타일
+    // c 스타일... 절차지향
     char s_2[100] = "hello";
     char s_3[] = "world";
 
