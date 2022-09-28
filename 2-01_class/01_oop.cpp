@@ -9,11 +9,11 @@ int main()
     // c++ 스타일... 객체지향
     string s_0 = "hello";
     string s_1 = "world";
-    s_0.append(s_1);
+    s_0.append(s_1);//s0의 함수, s1을 s0에 붙인다.
     cout << s_0 << endl;
 
     // c 스타일... 절차지향
-    char s_2[100] = "hello";
+    char s_2[100] = "hello";//문자열을 char의 배열의 형태로 선언
     char s_3[] = "world";
 
     strcat(s_2, s_3);
